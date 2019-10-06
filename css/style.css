@@ -1,12 +1,14 @@
+  
 html,
 body {
   margin: 0;
   padding: 0;
 }
-
 body {
-  background: #A0E7FF;
-  position: relative;
+position: relative;
+background-image: url("../images/mosaic-background.png");
+background-size: 100%;
+background-repeat: no-repeat;
 }
 
 .details {
@@ -17,7 +19,7 @@ body {
 .profile-link {
   color: #247BA0;
   font-size: 12px;
-  display: block;
+  display: block;å
 }
 
 .link-heading {
@@ -32,18 +34,6 @@ a:visited:hover {
 
 a:visited {
   color: #f58428;
-}
-
-.square-one .inner {
-  background: #E71D36;
-}
-
-.square-two .inner {
-  background: #FFBB11;
-}
-
-.square-three .inner {
-  background: #2EC4B6;
 }
 
 .outer {
